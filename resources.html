@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wildfire Resources and Live Smoke Forecasts | Stop Wildfires</title>
+  <meta name="description" content="Explore wildfire resilience resources, wildfire news, and live smoke forecasts to help communities prepare, respond, and reduce wildfire risk.">
+  <style>
+    :root{
+      --bg:#f8fafc;
+      --card:#ffffff;
+      --text:#1f2937;
+      --muted:#6b7280;
+      --accent:#0f766e;
+      --border:#e5e7eb;
+      --shadow:0 10px 30px rgba(15, 23, 42, .08);
+      --radius:16px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    .wrap{
+      max-width:1000px;
+      margin:0 auto;
+      padding:32px 20px 56px;
+    }
+    header{
+      margin-bottom:28px;
+    }
+    .toplink{
+      display:inline-block;
+      margin-bottom:16px;
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:600;
+    }
+    h1{
+      margin:0 0 10px;
+      font-size:clamp(2rem, 4vw, 3rem);
+      line-height:1.15;
+    }
+    .lede{
+      margin:0;
+      color:var(--muted);
+      max-width:70ch;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:20px;
+      margin-top:28px;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:22px;
+    }
+    .card h2{
+      margin:0 0 10px;
+      font-size:1.25rem;
+    }
+    .card p{
+      margin:0 0 14px;
+      color:var(--muted);
+    }
+    .card a{
+      color:var(--accent);
+      text-decoration:none;
+      font-weight:700;
+      word-break:break-word;
+    }
+    .card a:hover{text-decoration:underline}
+    .tag{
+      display:inline-block;
+      font-size:.82rem;
+      padding:4px 10px;
+      border-radius:999px;
+      background:#ecfeff;
+      color:#155e75;
+      margin-bottom:12px;
+    }
+    footer{
+      margin-top:36px;
+      color:var(--muted);
+      font-size:.95rem;
+    }
+    @media (min-width: 760px){
+      .grid{
+        grid-template-columns:repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <a class="toplink" href="index.html">← Back to home</a>
+      <h1>Wildfire Resources</h1>
+      <p class="lede">
+        Find wildfire resilience resources, wildfire news, and live smoke forecast tools to help with preparedness and current conditions.
+      </p>
+    </header>
+
+    <section class="grid" aria-label="Wildfire resources">
+      <article class="card">
+        <div class="tag">Article</div>
+        <h2>Canada’s water bombers and rising global wildfire demand</h2>
+        <p>
+          Reporting on the growing demand for firefighting aircraft and the challenge of scaling production fast enough.
+        </p>
+        <a href="https://www.cbc.ca/news/world/canadair-water-bombers-de-havilland-europe-demand-9.7299520" target="_blank" rel="noopener noreferrer">
+          Read about wildfire aircraft demand in Canada and Europe
+        </a>
+      </article>
+
+      <article class="card">
+        <div class="tag">Live forecast</div>
+        <h2>British Columbia wildfire smoke forecast</h2>
+        <p>
+          Live wildfire smoke forecast and air quality conditions for British Columbia.
+        </p>
+        <a href="https://firesmoke.ca/forecasts/current" target="_blank" rel="noopener noreferrer">
+          View the current BC wildfire smoke forecast
+        </a>
+      </article>
+    </section>
+
+    <footer>
+      More wildfire preparedness resources can be added here over time.
+    </footer>
+  </main>
+</body>
+</html>
